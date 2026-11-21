@@ -2,7 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0906" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="1863" />
+    <link rel="manifest" href="./manifest.webmanifest" />
     <meta name="description" content="1863: The Escape — a first-person historical runner about one man's flight toward freedom during the American Civil War." />
     <title>1863 — The Escape</title>
     <!-- Period typeface. The game falls back to Georgia/Palatino if offline. -->
@@ -11,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet" />
     <script type="module" crossorigin src="./assets/index-BCHopYGY.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-Bl4KR9PB.css">
+    <!-- Touch controls + full screen (phones/tablets only; no effect on desktop) -->
+    <link rel="stylesheet" href="./mobile.css">
+    <script defer src="./mobile.js"></script>
   </head>
   <body>
     <div id="app">

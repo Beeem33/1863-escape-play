@@ -1,0 +1,10 @@
+{
+  "name": "1863 — The Escape",
+  "short_name": "1863",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#0b0906",
+  "theme_color": "#0b0906"
+}
